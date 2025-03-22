@@ -1,0 +1,11 @@
+.header{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-top: var(--margin-md);
+    padding-inline: var(--margin-md);
+  }
+  
+  .header_logo{
+    width: 164px;
+  }
