@@ -14,6 +14,7 @@
   font-size: 64px;
   font-weight: bold;
   gap: 12px;
+  animation: fadeIn-box 1s ease-in-out;
 }
 
 .banner_tr_bl {
@@ -22,6 +23,7 @@
   align-items: center;
   font-size: 64px;
   color: var(--prim-color);
+  animation: fadeIn-box 2s ease-in-out;
 }
 
 .sub_title {
@@ -31,6 +33,7 @@
   flex-direction: column;
   justify-content: center;
   text-align: center;
+  animation: fadeIn-box 1.2s ease-in-out;
 }
 
 .font_title {
@@ -46,5 +49,32 @@
 @keyframes blink {
   50% {
     opacity: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .banner_title {
+    font-size: 32px;
+    text-align: center;
+    margin-top: var(--margin-md);
+  }
+
+  .banner_tr_bl {
+    font-size: 32px;
+  }
+
+  .sub_title {
+    font-size: 14px;
+  }
+}
+
+@keyframes fadeIn-box {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
 }
