@@ -3,17 +3,17 @@ import styles from "./page.module.css";
 import Header from "./components/header";
 import Banner from "./components/banner";
 import Tabs from "./components/tabs";
+import Footer from "./components/footer";
 
 export default function Home() {
   return (
     <div className={styles.page}>
       <main className={styles.main}>
-      <Header />
-      <Banner />
-      <Tabs />
+        <Header />
+        <Banner />
+        <Tabs />
       </main>
-      <footer className={styles.footer}>
-      </footer>
+      <Footer />
     </div>
   );
 }

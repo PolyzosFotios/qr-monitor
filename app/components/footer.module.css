@@ -1,0 +1,18 @@
+.footer {
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+  color: rgb(169, 169, 169);
+  animation: fadeIn-box 1s ease-in-out;
+}
+
+@keyframes fadeIn-box {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

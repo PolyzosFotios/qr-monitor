@@ -1,4 +1,4 @@
-import { supabase } from "@/supabase"; // ή "../../supabase" ανάλογα με τη δομή σου
+import { supabase } from "@/supabase";
 import { NextResponse } from "next/server";
 
 export async function GET(req, { params }) {
