@@ -13,9 +13,9 @@ function Banner() {
         <strong>For Free.</strong>
       </p>
       <p className={styles.sub_title}>
-        — Bring your ideas to people with a QR code!
+        - Bring your ideas to people with a QR code!
         <br />
-        Track its performance effortlessly and for free —
+        Track its performance effortlessly and for free -
       </p>
     </div>
   );
