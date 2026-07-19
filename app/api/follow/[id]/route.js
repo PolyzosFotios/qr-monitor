@@ -2,7 +2,7 @@ import { supabase } from "@/supabase";
 import { NextResponse } from "next/server";
 
 export async function GET(req, { params }) {
-  const id = params.id;
+  const { id } = await params;
 
   const { data, error } = await supabase
     .from("generqrcodes")
